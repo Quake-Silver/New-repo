@@ -1,0 +1,106 @@
+.shoe {
+  width: 350px;
+  height: 350px;
+}
+
+.col-lg-6 > h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.title {
+  padding: 2% 10%;
+  background-color: #ffc107;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.btn-dark,
+.btn-outline-light {
+  padding: 10px 20px;
+  margin: 5% 1%;
+}
+
+.testimonials {
+  background-color: #531f18;
+  padding: 7% 15%;
+  text-align: center;
+  color: white;
+}
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.testimonial-images {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.card {
+  margin: 8px;
+  border: 1px solid black;
+}
+.card-group {
+  padding-top: 50px;
+}
+.pricing-page {
+  padding: 100px;
+  text-align: center;
+  background-color: #ffc107;
+}
+.accordion-page {
+  padding: 100px;
+  text-align: center;
+  
+}
+.gengen-shoe {
+  width: 300px;
+  height: 300px;
+}
+.jolomi-favv {width: 300px;
+  height: 300px;}
+
+.form-page { padding: 100px;
+
+background-color: #531f18;
+color: #ffff;}
+.form-page-header {text-align: center;
+padding-bottom: 50px;}
+
+
+
+
+@media only screen and (max-width: 400px) {
+  .col-lg-6 > h1 {
+    font-size: 2rem;
+  }
+  .testimonial-text {
+    font-size: 1.5rem;
+  }
+  .shoe-coloumn {
+    padding-bottom: 50px;
+  }
+  .shoe {
+    width: 200px;
+    height: 200px;
+  }
+  .pricing-page {
+    padding: 20px;
+    text-align: center;
+  }
+  .accordion-page {
+    padding: 50px;
+    
+  }
+  .gengen-shoe {width: 50%;
+  height: 50%;}
+  .jolomi-favv{width: 50%;
+    height: 50%;}
+    .form-page {padding: 30px;}
+}
+/* h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  } */
